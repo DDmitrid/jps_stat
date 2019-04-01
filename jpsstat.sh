@@ -22,6 +22,7 @@
 # CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # check if -help parameter is given.
+# chmod u+x file.sh
     for var in "$@"
     do
         if [ $var = "-h" ] || [ $var = "-help" ]
